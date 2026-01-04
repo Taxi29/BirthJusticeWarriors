@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import HomePage from "./components/HomePage";
+import ComingSoon from "./components/ComingSoon";
+import Mission from "./components/Mission";
+import Founders from "./components/Founders";
+import Action from "./components/Action";
+import ResourceGuide from "./components/ResourceGuide";
 
-function App() {
+// Page components using ComingSoon
+
+const Newsletters = () => (
+  <ComingSoon pageTitle="Past Newsletters - Coming Soon" />
+);
+const BackgroundData = () => (
+  <ComingSoon pageTitle="Background Data - Coming Soon" />
+);
+const Downloads = () => <ComingSoon pageTitle="Downloads - Coming Soon" />;
+const Support = () => <ComingSoon pageTitle="Support Services - Coming Soon" />;
+
+// Main App Component with Router
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <br />
+
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/mission" element={<Mission />} />
+          <Route path="/founders" element={<Founders />} />
+          <Route path="/action" element={<Action />} />
+          <Route path="/resource_guide" element={<ResourceGuide />} />
+        </Routes>
+
+        <Footer />
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
