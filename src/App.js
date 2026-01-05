@@ -4,7 +4,6 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./components/HomePage";
-import ComingSoon from "./components/ComingSoon";
 import Mission from "./components/Mission";
 import Founders from "./components/Founders";
 import Action from "./components/Action";
