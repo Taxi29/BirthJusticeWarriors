@@ -12,15 +12,6 @@ import ResourceGuide from "./components/ResourceGuide";
 
 // Page components using ComingSoon
 
-const Newsletters = () => (
-  <ComingSoon pageTitle="Past Newsletters - Coming Soon" />
-);
-const BackgroundData = () => (
-  <ComingSoon pageTitle="Background Data - Coming Soon" />
-);
-const Downloads = () => <ComingSoon pageTitle="Downloads - Coming Soon" />;
-const Support = () => <ComingSoon pageTitle="Support Services - Coming Soon" />;
-
 // Main App Component with Router
 const App = () => {
   return (
