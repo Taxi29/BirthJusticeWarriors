@@ -86,7 +86,7 @@ const Action = () => {
     },
     {
       image: "/Media/Event_Photos/DigitalStory-1.jpg",
-      caption: "Caption coming soon",
+      caption: "BJW Listening Station",
     },
     {
       image: "/Media/Event_Photos/screen-shot-2022-04-19-at-2.36.43-am.png",
@@ -102,19 +102,20 @@ const Action = () => {
     },
     {
       image: "/Media/Event_Photos/BreastfeedingWeek.jpg",
-      caption: "Caption coming soon",
+      caption: "Black Breastfeeding Week",
     },
     {
       image: "/Media/Event_Photos/10-03 AH Birth Justice-Pg-1_Page_1.jpg",
-      caption: "Caption coming soon",
+      caption: "Long Island Press article about Maternal Mortality",
     },
     {
       image: "/Media/Event_Photos/10-03 AH Birth Justice-Pg-1_Page_2.jpg",
-      caption: "Caption coming soon",
+      caption: "Long Island Press article featuring Birth Justice Warriors",
     },
     {
       image: "/Media/Event_Photos/USNews-1_Page_1.jpg",
-      caption: "Caption coming soon",
+      caption:
+        "US News & World Report article about maternal mortality featuring Birth Justice Warriors",
     },
   ];
 
