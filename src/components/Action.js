@@ -62,7 +62,7 @@ const Action = () => {
     },
     {
       image: "/Media/Event_Photos/f46c0efd-5480-45a8-b0e1-6aa472f53f23.jpg",
-      caption: "Tabeling in the Community",
+      caption: "Tabling in the Community",
     },
     {
       image: "/Media/Event_Photos/hackettnellie.jpg",
