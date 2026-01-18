@@ -4,98 +4,116 @@ const Action = () => {
   const events = [
     {
       image: "/Media/Event_Photos/MetroFocus.jpg",
-      caption: "Caption coming soon",
+      caption: "Nellie and Martine on PBS Metro Focus",
     },
     {
       image: "/Media/Event_Photos/2ndBreakfast.jpg",
-      caption: "Caption coming soon",
+      caption: "Our Second Birth Equity Breakfast",
     },
     {
       image: "/Media/Event_Photos/Solanges.png",
-      caption: "Caption coming soon",
+      caption: "Martine's interview with Assemblywoman Michaelle Solages",
     },
     {
       image: "/Media/Event_Photos/MartineWithSenator.jpg",
-      caption: "Caption coming soon",
+      caption:
+        "With United States Senator Kirsten Gillibrand (NY) advocating for funding",
     },
     {
       image: "/Media/Event_Photos/Hakima.jpg",
-      caption: "Caption coming soon",
+      caption: "Birth Equity Breakfast guest speaker, Mama Hakima",
     },
     {
       image: "/Media/Event_Photos/CovidConcerns.jpg",
-      caption: "Caption coming soon",
+      caption: "Birth Equity and COVID event",
     },
     {
       image: "/Media/Event_Photos/NellieBreakfast.jpg",
-      caption: "Caption coming soon",
+      caption: "Nellie at the First Birth Equity Breakfast",
     },
     {
       image: "/Media/Event_Photos/befunky-collage-4-1.jpg",
-      caption: "Caption coming soon",
+      caption: "BLack Breastfeeding Week event in Uniondale, NY",
     },
     {
       image: "/Media/Event_Photos/TwoTables.jpg",
-      caption: "Caption coming soon",
+      caption: "Tabling in the Community",
     },
     {
       image: "/Media/Event_Photos/birth-justice-warriors-2019-1.jpg",
-      caption: "Caption coming soon",
+      caption: "The 2019 Cohort of Birth Justice Warriors",
     },
     {
       image: "/Media/Event_Photos/NellieBabyGoods.jpg",
-      caption: "Caption coming soon",
+      caption:
+        "Baby Goods Drive for Good Beginnings for Babies in Westbury, NY",
     },
     {
       image: "/Media/Event_Photos/CircleTalk.jpg",
-      caption: "Caption coming soon",
+      caption: "Community Conversation event in Uniondale, NY",
     },
     {
       image: "/Media/Event_Photos/ClassroomPict.jpg",
-      caption: "Caption coming soon",
+      caption: "Birth Justice Warrior training session, 2018",
     },
     {
       image: "/Media/Event_Photos/d4da013a-4cae-49da-ac8e-552e154166d0.jpg",
-      caption: "Caption coming soon",
+      caption: "Tabling in the Community",
     },
     {
       image: "/Media/Event_Photos/f46c0efd-5480-45a8-b0e1-6aa472f53f23.jpg",
-      caption: "Caption coming soon",
+      caption: "Tabeling in the Community",
     },
     {
       image: "/Media/Event_Photos/hackettnellie.jpg",
-      caption: "Caption coming soon",
+      caption: "Nellie and Martine on the Well Said radio show",
     },
     {
       image: "/Media/Event_Photos/HofstraSummit.jpg",
-      caption: "Caption coming soon",
+      caption: "Second Birth Equity Breakfast",
     },
     {
       image: "/Media/Event_Photos/img_20181024_133955-1.jpg",
-      caption: "Caption coming soon",
+      caption: "Training Nurse Family Partnership nurses",
     },
     {
       image: "/Media/Event_Photos/mainphoto.jpg",
-      caption: "Caption coming soon",
+      caption: "First cohort of Birth Justice Warriors, 2018",
     },
     {
       image: "/Media/Event_Photos/MartineTeaching.png",
-      caption: "Caption coming soon",
+      caption: "Martine at Women's Diversity Network event",
     },
     {
-      image: "/Media/Event_Photos/NellieBabyGoods.jpg",
+      image: "/Media/Event_Photos/DigitalStory-1.jpg",
       caption: "Caption coming soon",
     },
     {
       image: "/Media/Event_Photos/screen-shot-2022-04-19-at-2.36.43-am.png",
-      caption: "Caption coming soon",
+      caption: "Mythbusters event at Hofstra University",
     },
     {
       image: "/Media/Event_Photos/MythGroupSession.jpg",
-      caption: "Caption coming soon",
+      caption: "Meet the Midwife event at Hofstra University",
     },
     {
       image: "/Media/Event_Photos/StagePanel.jpg",
+      caption: "Panel Discussion of the documentary Aftershock",
+    },
+    {
+      image: "/Media/Event_Photos/BreastfeedingWeek.jpg",
+      caption: "Caption coming soon",
+    },
+    {
+      image: "/Media/Event_Photos/10-03 AH Birth Justice-Pg-1_Page_1.jpg",
+      caption: "Caption coming soon",
+    },
+    {
+      image: "/Media/Event_Photos/10-03 AH Birth Justice-Pg-1_Page_2.jpg",
+      caption: "Caption coming soon",
+    },
+    {
+      image: "/Media/Event_Photos/USNews-1_Page_1.jpg",
       caption: "Caption coming soon",
     },
   ];
